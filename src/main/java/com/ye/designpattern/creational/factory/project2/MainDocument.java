@@ -13,8 +13,8 @@ public class MainDocument {
         report.render();
 
         if ( report instanceof Report ) {
-            Report report2024 = (Report) report;
-            report2024.generatePdfReport();
+            Report myReport = (Report) report;
+            myReport.generatePdfReport();
         } // else if for other type of document when we want to call
     }
 
